@@ -32,9 +32,10 @@ OUTPUT:
 Critical: these are not mounted but do appear in /etc/fstab:
 +//10.0.0.3/my_vol /mnt/my_vol
 
-CHANGELOG:
+CHANGELOG
+=========
 05/25/2014 03:00:00 PM MSK:
-- Fixed messages output
+- Fixed messages output [patch by jazzl0ver]
 04/19/2012 04:56:00 PM EDT:
 - Added support for nfs4 [patch by Michael Hübner m.huebner@reinform.de]
 11/02/2012 05:07:00 PM EDT:
