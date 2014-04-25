@@ -34,12 +34,12 @@ Critical: these are not mounted but do appear in /etc/fstab:
 
 CHANGELOG
 =========
-05/25/2014 03:00:00 PM MSK:
+- 05/25/2014 03:00:00 PM MSK:
  Fixed messages output [patch by jazzl0ver]
-04/19/2012 04:56:00 PM EDT:
+- 04/19/2012 04:56:00 PM EDT:
  Added support for nfs4 [patch by Michael Hübner m.huebner@reinform.de]
-11/02/2012 05:07:00 PM EDT:
+- 11/02/2012 05:07:00 PM EDT:
  Added support for s3fs
-12/08/2013 06:21:00 PM EDT:
+- 12/08/2013 06:21:00 PM EDT:
  Added test to touch a file in the mount, will only be checked if timeout util exists
  Fixed EOL prints
