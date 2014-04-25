@@ -5,7 +5,6 @@ Verifies the current mounts correspond to those defined in /etc/fstab
 
 The original project is at:
 http://exchange.nagios.org/directory/Plugins/Network-and-Systems-Management/check_mounts-2Esh/details
-
 Summary
 =======
 Return 0 [OK] if true, 1 [WARNING] if mounted but has no matching entry in /etc/fstab and 2 [CRITICAL] if an /etc/fstab entry is not currently mounted.
