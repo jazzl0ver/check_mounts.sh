@@ -32,14 +32,11 @@ OUTPUT:
 Critical: these are not mounted but do appear in /etc/fstab:
 +//10.0.0.3/my_vol /mnt/my_vol
 
-CHANGELOG
-=========
-- 05/25/2014 03:00:00 PM MSK:
- Fixed messages output [patch by jazzl0ver]
-- 04/19/2012 04:56:00 PM EDT:
- Added support for nfs4 [patch by Michael Hübner m.huebner@reinform.de]
-- 11/02/2012 05:07:00 PM EDT:
- Added support for s3fs
-- 12/08/2013 06:21:00 PM EDT:
- Added test to touch a file in the mount, will only be checked if timeout util exists
- Fixed EOL prints
+CHANGELOG:
+04/19/2012 04:56:00 PM EDT:
+- Added support for nfs4 [patch by Michael Hübner m.huebner@reinform.de]
+11/02/2012 05:07:00 PM EDT:
+- Added support for s3fs
+12/08/2013 06:21:00 PM EDT:
+- Added test to touch a file in the mount, will only be checked if timeout util exists
+- Fixed EOL prints 
